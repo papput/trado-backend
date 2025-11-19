@@ -18,14 +18,14 @@ const app = express();
 
 // // ✅ CORS Configuration
 const allowedOrigins = [
-  "https://trado-app.vercel.app",
+   "https://trado-app.vercel.app",
   "http://localhost:3001",
   "https://trado-admin.vercel.app",
   "http://localhost:3000",
   "http://localhost:3002",
   "https://tradofrontend.netlify.app",
   "https://trado-admin.netlify.app",
-  "https://trado.exchange",
+  "https://trado.exchange"
 ];
 
 app.use(
