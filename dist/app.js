@@ -20,6 +20,7 @@ const allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:3002",
   "https://tradofrontend.netlify.app",
+  "https://trado-admin.netlify.app",
   "https://trado.exchange",
 ];
 app.use(
