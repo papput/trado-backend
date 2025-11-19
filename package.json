@@ -1,0 +1,33 @@
+{
+  "name": "crypto-trading-api",
+  "version": "1.0.0",
+  "description": "Crypto trading platform API",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "latest",
+    "crypto": "^1.0.1",
+    "dotenv": "latest",
+    "express": "latest",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "multer": "^2.0.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5"
+  }
+}
