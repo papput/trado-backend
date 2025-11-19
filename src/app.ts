@@ -8,7 +8,7 @@ import transactionRoutes from "./routes/transaction.js";
 import referralRoutes from "./routes/referral.js";
 import passwordRoutes from "./routes/password.js";
 import adminRoutes from "./routes/admin.js";
-import path from "path"
+import path from "path";
 
 import adminAuthRoutes from "./routes/adminAuth.js";
 
@@ -22,8 +22,10 @@ const allowedOrigins = [
   "http://localhost:3001",
   "https://trado-admin.vercel.app",
   "http://localhost:3000",
-
   "http://localhost:3002",
+  "https://tradofrontend.netlify.app",
+  "https://trado-admin.netlify.app",
+  "https://trado.exchange",
 ];
 
 app.use(
@@ -43,7 +45,6 @@ app.use(
 
 // Middleware
 app.use(express.json());
-
 
 // Connect to database
 connectDB();
